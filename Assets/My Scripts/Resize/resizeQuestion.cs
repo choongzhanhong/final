@@ -9,13 +9,15 @@ public class resizeQuestion : MonoBehaviour
     public float currentSize = 200;
     public float fixedWidth = 300;
     public GameObject instructPanel;
+    public GameObject buttonpanel;
     public Text answerText;
     public Button[] numberButtons;
+    public GameObject openbutton;
     public Button buttonReset;
     public Button buttonEnter;
 
-    public string correctSequence = "4992";
-    private string currentSequence = "";
+    private string correctSequence = "4992";
+    public string currentSequence = "";
     
     public DoorScript dooropen;
     public GameObject animationobject;
@@ -52,11 +54,12 @@ public class resizeQuestion : MonoBehaviour
     public void ConfirmSequence()
     {
         // if the current sequence matches the correct sequence, trigger the animation
+        answerText.text = currentSequence;
         if (currentSequence == correctSequence)
         {
             answerText.text = "CORRECT";
-            animationobject.GetComponent<Animation>().Play();
-            dooropen.PlayAnimation();
+            buttonpanel.SetActive(false);
+            openbutton.SetActive(true);
         }
         else
         {
@@ -74,6 +77,7 @@ public class resizeQuestion : MonoBehaviour
         currentSequence = "";
         answerText.text = currentSequence;
     }
+
 
     // Update is called once per frame
     public void Update()
