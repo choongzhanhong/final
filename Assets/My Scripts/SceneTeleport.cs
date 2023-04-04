@@ -25,7 +25,7 @@ public class SceneTeleport : MonoBehaviour
     }
 
     public void sceneTeleportHUD() {
-        SceneManager.LoadScene("HUD");
+        SceneManager.LoadScene("4_HUD");
         Ui.SetActive(true);
     }
 
@@ -45,7 +45,7 @@ public class SceneTeleport : MonoBehaviour
     }
 
     public void sceneTeleportGarage() {
-        SceneManager.LoadScene("Garage Grab");
+        SceneManager.LoadScene("3_Grabbing");
         Ui.SetActive(true);
     }
 

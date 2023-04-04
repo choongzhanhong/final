@@ -1,6 +1,0 @@
-1. [Why changing head height matters](https://www.vrinflux.com/vr-accessibility-why-changing-head-height-matters/)
-2. [Ergonomics in VR Design](https://blog.leapmotion.com/ergonomics-vr-design/)
-3. [VR Design Best Practices](https://medium.com/@LeapMotion/vr-design-best-practices-bb889c2dc70)
-4. [5 things you're doing wrong](https://medium.com/@alan_stafford/virtual-reality-interface-design-5-things-youre-probably-doing-wrong-c5d92260cd87)
-
-1. [Quick Outline](https://assetstore.unity.com/packages/tools/particles-effects/quick-outline-115488)

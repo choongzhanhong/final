@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/StartingRoom.unity
     guid: ca251708ce21b8448bbb67ecfee5c42e
   - enabled: 1
-    path: Assets/Scenes/HUD.unity
+    path: Assets/Scenes/4_HUD.unity
     guid: 69f6ecff3e31fe1409cac6c9ff18dd9a
   - enabled: 1
     path: Assets/Scenes/Oculus.unity
@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RelocationDistance.unity
     guid: a1fbd4043f06d0541b04f9fcfdc39bad
+  - enabled: 1
+    path: Assets/Scenes/3_Grabbing.unity
+    guid: 8d233101f7d36204abf3dbe95e1f8183
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}

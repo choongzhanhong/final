@@ -18,6 +18,7 @@ TagManager:
   - Pin_2
   - Pin_3
   - Pin_4
+  - Reset Positions
   layers:
   - Default
   - TransparentFX
@@ -28,8 +29,8 @@ TagManager:
   - Grabbable
   - UI Collider
   - Pointer
-  - 
-  - 
+  - Hand
+  - Hand Interactables
   - 
   - 
   - 
